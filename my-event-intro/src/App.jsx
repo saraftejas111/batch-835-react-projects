@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css'
+import CounterApp from './CounterApp';
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
       <center>
         <h1>Welcome to Event State Intro... Mr. {name}</h1>
 
+        <CounterApp/>
+=======================================================================================
         {/* 1st event onCLick .. attributes in react follows thhe camelCase */}
         <button onClick={handleClick}>Click Me</button>
         <h2>Normal Var Count = {count}</h2>
