@@ -1,6 +1,8 @@
 import React from 'react'
 
-const EmployeeList = ({emps}) => {
+const EmployeeList = ({emps , deleteEmp}) => {
+
+
   return (
     <div>
 
@@ -12,6 +14,7 @@ const EmployeeList = ({emps}) => {
                <th>NAME</th>
                <th>ROLE</th>
                <th>SALARY</th>        
+               <th>ACTION</th>        
             </tr>
         </thead>
 
@@ -23,6 +26,9 @@ const EmployeeList = ({emps}) => {
                         <td>{e.name}</td>
                         <td>{e.role}</td>
                         <td>{e.salary}</td>
+                        <td>
+                            <button  onClick={()=> deleteEmp(e.id)}>Delete</button>
+                        </td>
                     </tr>
                 ))
             }

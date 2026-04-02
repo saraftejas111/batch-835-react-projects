@@ -14,7 +14,7 @@ const AddEmployee = ({ sendEmp }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         sendEmp(emp);
-        setEmp({ name: "", role: "", salary: "" });
+        setEmp({ id : "" , name: "", role: "", salary: "" });
     }
     return (
         <div>
