@@ -6,5 +6,5 @@ const employees = [
 ];
 
 
-export const getAllEmployees = () => employees ; 
+export const getAllEmployees = () => employees ;   // "https://localhost:8080/all-employees"
 

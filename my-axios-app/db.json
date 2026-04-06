@@ -1,0 +1,77 @@
+{
+  "employees": [
+    {
+      "id": "101",
+      "name": "Tejas Saraf",
+      "role": "Developer",
+      "salary": 70000
+    },
+    {
+      "id": "102",
+      "name": "Raj Patil",
+      "role": "Tester",
+      "salary": 32000
+    },
+    {
+      "id": "103",
+      "name": "Neha Sharma",
+      "role": "Developer",
+      "salary": 55000
+    },
+    {
+      "id": "104",
+      "name": "Amit Joshi",
+      "role": "Manager",
+      "salary": 90000
+    },
+    {
+      "id": "105",
+      "name": "Sneha Kulkarni",
+      "role": "HR",
+      "salary": 40000
+    },
+    {
+      "id": "106",
+      "name": "Vikas Gupta",
+      "role": "Developer",
+      "salary": 60000
+    },
+    {
+      "id": "107",
+      "name": "Pooja Mehta",
+      "role": "Tester",
+      "salary": 35000
+    },
+    {
+      "id": "108",
+      "name": "Rohan Deshmukh",
+      "role": "Developer",
+      "salary": 65000
+    },
+    {
+      "id": "109",
+      "name": "Anjali Verma",
+      "role": "Tester",
+      "salary": 30000
+    },
+    {
+      "id": "110",
+      "name": "Karan Malhotra",
+      "role": "CEO",
+      "salary": 150000
+    },
+    {
+      "id": "rrS_tCQfFbA",
+      "name": "raj",
+      "role": "dev",
+      "salary": "12345"
+    },
+    {
+      "id": "5tqVy_yRj5c",
+      "name": "jay",
+      "role": "test",
+      "salary": "1234"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
