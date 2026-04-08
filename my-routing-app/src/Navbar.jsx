@@ -6,9 +6,11 @@ const Navbar = () => {
     <div>
       
       <nav>
+        <Link to='/'>Home</Link> {" | "}
         <Link to='/mobile'>Mobile</Link> {" | "}
         <Link to='/fashion'>Fashion</Link> {" | "}
         <Link to='/elect'>Electronics</Link> {" | "}
+        <Link to='/allusers'>All Users</Link> {" | "}
       </nav>
     </div>
   )
